@@ -7,16 +7,25 @@ from sklearn.linear_model import LinearRegression
 
 # --- CONFIGURATION (Add your details here) ---
 API_KEY = "d145101568913b6164e37a078437408b"
-USER = "zector1981"
+def main():
+    # --- PORTABILITY FIX ---
+    
+    target_user = input("Enter Last.fm Username: ").strip()
+    if not target_user:
+        print("❌ Username required.")
+        return
+
+    # 1. Sync with Last.fm (Pass the new target_user to your functions)
+    actual_today = get_today_from_api(target_user)
 
 # --- PRO PATHING ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_FILE = os.path.join(BASE_DIR, "scrobble_history.json")
 
-def get_today_from_api():
+def get_today_from_api(user):
     """Pulls the real scrobble count from Last.fm for today."""
     today_start = int(datetime.now().replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
-    url = f"http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user={USER}&api_key={API_KEY}&from={today_start}&format=json"
+    url = f"http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user={user}&api_key={API_KEY}&from={today_start}&format=json"
     try:
         r = requests.get(url).json()
         return int(r['recenttracks']['@attr']['total'])
@@ -49,9 +58,15 @@ def run_ai_logic(history):
     return max(0, final_guess)
 
 def main():
-    # 1. Sync with Last.fm
-    actual_today = get_today_from_api()
-    if actual_today is None: return
+    # Capture the input
+    target_user = input("Enter Last.fm Username: ").strip()
+    
+    if not target_user:
+        print("❌ No username entered.")
+        return
+
+    # Pass 'target_user' into the function
+    actual_today = get_today_from_api(target_user)
 
     # 2. Update the "Vault"
     if os.path.exists(HISTORY_FILE):
