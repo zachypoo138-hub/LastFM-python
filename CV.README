@@ -1,0 +1,41 @@
+# Systems & Data Specialist | Oak Harbor, WA
+
+Technical generalist focused on **System Architecture** and **Automated Data Pipelines**. I bridge the gap between low-level system configuration (LFS) and high-level software prototyping (Vibe Coding).
+
+---
+
+### 🛠 Tech Stack
+- **OS:** Arch Linux (Daily Driver), Linux From Scratch (Source-built)
+- **Languages:** Python (Scikit-Learn, Requests), Bash, C (Toolchain Management)
+- **Environment:** Neovim, Git, Alacritty, 
+- **Methodology:** Rapid Prototyping, Data Sanitization, System Hardening
+
+---
+
+### 🚀 Key Projects
+
+#### [Last.fm Predictive Suite](https://github.com/yourusername/LastFM-python)
+- **Overview:** An AI-driven analytics engine forecasting engagement trends.
+- **Tech:** Python, Linear Regression (Scikit-Learn), REST API Integration.
+- **Impact:** Engineered an idempotent synchronization loop that maintains a high-fidelity "Single Source of Truth" in JSON for longitudinal modeling.
+
+#### [Linux From Scratch (LFS) Synthesis](https://github.com/yourusername/LFS-Build)
+- **Overview:** Architected a functional, source-based Linux distribution.
+- **Tech:** Kernel Optimization, Manual Dependency Resolution, Toolchain Compilation.
+- **Impact:** Deep-level debugging of hardware-software interactions to achieve a stable, minimalist TTY-based environment.
+
+#### [Automated News Scraper](https://github.com/yourusername/News-Archive)
+- **Overview:** Regional news aggregator with custom sanitization.
+- **Tech:** Python, HTML Parsing, Persistent Local Storage.
+- **Impact:** Created a distraction-free, local archival system for regional data.
+
+---
+
+### 🧠 Principles
+- **Vibe Coding:** Leveraging AI agents for accelerated software development cycles.
+- **Suckless Philosophy:** Prioritizing software transparency and performance over bloat.
+- **Verification First:** A skeptical, source-driven approach to technical troubleshooting.
+
+---
+
+📫 **Contact:** [Your Email/Social Link]

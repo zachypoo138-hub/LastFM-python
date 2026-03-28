@@ -1,0 +1,14 @@
+# Ignore local data vaults
+**/scrobble_history.json
+
+# Ignore Python cache (compiled files)
+__pycache__/
+*.pyc
+
+# Ignore hidden system files
+.DS_Store
+
+predictor.py
+record_scrobbles.py
+vitals.py
+
