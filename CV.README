@@ -1,41 +1,40 @@
-# Systems & Data Specialist | Oak Harbor, WA
+# Systems & Data Specialist | Washington State
 
-Technical generalist focused on **System Architecture** and **Automated Data Pipelines**. I bridge the gap between low-level system configuration (LFS) and high-level software prototyping.
+Technical generalist focused on **System Architecture** and **Automated Data Pipelines**. I specialize in bridging the gap between low-level system configuration and high-level data automation.
 
 ---
 
-### 🛠 Tech Stack
-- **OS:** Arch Linux (Daily Driver), Linux From Scratch (Source-built)
-- **Languages:** Python (Scikit-Learn, Requests), Bash, C (Toolchain Management)
-- **Environment:** Neovim, Git, Alacritty, 
-- **Methodology:** Rapid Prototyping, Data Sanitization, System Hardening
+### 🛠 Technical Stack
+- **Operating Systems:** Arch Linux, Linux From Scratch (Source-built)
+- **Languages:** Python (Scikit-Learn, REST APIs), Bash Scripting
+- **Tooling:** Neovim, Git, SSH, Linux Toolchain Management
+- **Key Competencies:** Data Sanitization, Idempotent Logic, System Debugging
 
 ---
 
 ### 🚀 Key Projects
 
 #### [Last.fm Predictive Suite](https://github.com/zachypoo138-hub/LastFM-python)
-- **Overview:** An AI-driven analytics engine forecasting engagement trends.
-- **Tech:** Python, Linear Regression (Scikit-Learn), REST API Integration.
-- **Impact:** Engineered an idempotent synchronization loop that maintains a high-fidelity "Single Source of Truth" in JSON for longitudinal modeling.
+- **Overview:** An AI-driven analytics engine forecasting listener engagement trends.
+- **Implementation:** Engineered an **Idempotent Sync Loop** to maintain a high-fidelity data vault via the Last.fm REST API.
+- **Analytics:** Utilizes **Linear Regression** to model longitudinal listening habits and predict future activity.
 
-#### [Linux From Scratch (LFS)]
-- **Overview:** Architected a functional, source-based Linux distribution.
-- **Tech:** Kernel Optimization, Manual Dependency Resolution, Toolchain Compilation.
-- **Impact:** Deep-level debugging of hardware-software interactions to achieve a stable, minimalist TTY-based environment.
+#### [Linux From Scratch (LFS) 
+- **Overview:** Built a functional, source-based Linux distribution from the ground up.
+- **Focus:** Manual dependency resolution, kernel optimization, and toolchain compilation.
+- **Outcome:** A deep understanding of the Linux boot process and low-level system interactions.
 
-#### [Automated News Scraper](https://github.com/zachypoo138-hub/ScrapeBeast)
-- **Overview:** Regional news aggregator with custom sanitization.
-- **Tech:** Python, HTML Parsing, Persistent Local Storage.
-- **Impact:** Created a distraction-free, local archival system for regional data.
-
----
-
-### 🧠 Principles
-- **Vibe Coding:** Leveraging AI agents for accelerated software development cycles.
-- **Suckless Philosophy:** Prioritizing software transparency and performance over bloat.
-- **Never Trust a Clanker:** A skeptical, source-driven approach to technical troubleshooting.
+#### [Automated News Archive](https://github.com/zachypoo138-hub/ScrapeBeast)
+- **Overview:** Regional news aggregator with automated data sanitization.
+- **Impact:** Developed a custom HTML parser to convert web-based regional news into clean, local archives for offline research.
 
 ---
 
-📫 **Contact:** [Your Email/Social Link]
+### 🧠 Professional Philosophy
+- **AI-Augmented Development:** Utilizing modern AI tools to accelerate development cycles and troubleshoot complex system interactions.
+- **Minimalist Architecture:** Prioritizing system transparency and resource efficiency to build stable, high-performance environments.
+- **Empirical Troubleshooting:** A verification-first approach to technical challenges, ensuring stability through testing and documentation.
+
+---
+
+📫 **Contact:** [Your Link/Email]
